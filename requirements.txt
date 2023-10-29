@@ -1,0 +1,2 @@
+-r ./requirements/production.txt
+-bash ./commands/download_corpora.sh
