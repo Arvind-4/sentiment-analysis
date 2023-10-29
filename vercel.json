@@ -2,11 +2,6 @@
   "version": 2,
   "builds": [
     {
-      "src": "backend/main.py",
-      "use": "@vercel/python",
-      "config": { "runtime": "python3.9" }
-    },
-    {
       "src": "package.json",
       "use": "@vercel/next"
     }
@@ -23,6 +18,7 @@
   ],
   "functions": {
       "api/**": {
+        "runtime": "python3.9",
         "excludeFiles": "{.next,commands,csv,notebooks,public,src}/**"
       }
   }
