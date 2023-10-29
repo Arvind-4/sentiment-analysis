@@ -20,5 +20,10 @@
       "src": "/(.*)",
       "dest": "package.json"
     }
-  ]
+  ],
+  "functions": {
+      "api/**": {
+        "excludeFiles": "{.next,commands,csv,notebooks,public,src}/**"
+      }
+  }
 }
