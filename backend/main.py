@@ -1,4 +1,5 @@
 import pickle
+import subprocess
 from fastapi import FastAPI, Response, status
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -32,6 +33,15 @@ def load_model():
         print("Model Loadded Successfully :)")
     except Exception as e:
         print("Failed to load model :(")
+        print("error", e)
+
+
+    try:
+        command = "python -m nltk.downloader punkt wordnet stopwords".split()
+        subprocess.run(command) 
+        print("nltk packages downloaded successfully :)")
+    except Exception as e:
+        print("Failed to download nltk packages :(")
         print("error", e)
 
 
