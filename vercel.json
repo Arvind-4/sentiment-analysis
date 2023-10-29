@@ -21,7 +21,7 @@
       "dest": "package.json"
     }
   ],
-  "excludeFiles": [
+  "exclude": [
     "commands/**",
     "csv/**",
     "notebooks/**",
