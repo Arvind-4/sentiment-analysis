@@ -20,13 +20,5 @@
       "src": "/(.*)",
       "dest": "package.json"
     }
-  ],
-  "exclude": [
-    "commands/**",
-    "csv/**",
-    "notebooks/**",
-    "public/**",
-    "requirements/**",
-    "src/**"
   ]
 }
