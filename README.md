@@ -11,7 +11,7 @@
 
 ## Demo:
 
-<img href="https://github.com/Arvind-4/Sentiment-Analysis/blob/main/.github/static/homepage.png?raw=true" alt="Home Page"/>
+<img src="https://raw.githubusercontent.com/Arvind-4/Sentiment-Analysis/main/.github/static/homepage.png" alt="Home Page"/>
 
 
 ## Getting Started: 
