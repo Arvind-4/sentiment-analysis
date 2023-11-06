@@ -1,5 +1,5 @@
 {
-  "name": "delete",
+  "name": "sentiment-analysis-ui",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,12 +8,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "production": "pm2-runtime src/server.js --name=frontend",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,mdx,css,scss,sass}\"",
     "prettier:watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "flowbite": "^1.8.1",
     "next": "14.0.0",
+    "pm2": "^5.3.0",
     "react": "^18",
     "react-dom": "^18"
   },
