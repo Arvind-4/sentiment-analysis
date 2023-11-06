@@ -9,6 +9,11 @@
 - [Typescript](https://www.typescriptlang.org/)  - JavaScript with syntax for types.
 - [Tailwind 3](https://tailwindcss.com/)  - Rapidly build modern websites without ever leaving your HTML.
 
+## Demo:
+
+<img href="https://github.com/Arvind-4/Sentiment-Analysis/blob/main/.github/static/homepage.png?raw=true" alt="Home Page"/>
+
+
 ## Getting Started: 
 
 - Clone Repo 
