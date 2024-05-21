@@ -21,7 +21,7 @@
 ```bash
 mkdir ~/Dev/sentiment-analysis -p
 cd ~/Dev/sentiment-analysis
-git clone https://github.com/Arvind-4/Sentiment-Analysis.git .
+git clone https://github.com/Arvind-4/sentiment-analysis.git .
 ```  
 
 - Install Dependencies (**For Backend**):
